@@ -1,5 +1,5 @@
-# Play-Store-Scraper-
-This is a R script to scrap details about some apps from the google play store 
+# Play-Store-Scraper
+This is a R script to scrap details about some apps from the google play store website 
 
 ### Input
 The script reads apps names from an excel(.xlsx) file with the name "Sourcing Input List.xlsx".</br>
