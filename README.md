@@ -3,8 +3,8 @@ This is a R script to scrap details about some apps from the google play store w
 
 ### Input
 The script reads apps names from an excel(.xlsx) file with the name "Sourcing Input List.xlsx".</br>
-The file cshould contain a column with the name "Company name" and any number of rows.</br>
-The file should be in a data folder in the same directory as the script.
+The file should contain a column with the name "Company name" and any number of rows.</br>
+The file should be in a folder with the named "data" in the same directory as the script.
 ```
 data = as.data.frame(read_excel("data/Sourcing Input List.xlsx" ) )
 ```
