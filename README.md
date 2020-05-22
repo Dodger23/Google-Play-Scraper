@@ -1,10 +1,17 @@
 # Play-Store-Scraper
 This is a R script to scrap details about some apps from the google play store website 
 
+
+**Extracted details for each app :**  
+ - play store url 
+ - reviews score 
+ - developer website 
+ - number of downloads (installs)
+
 ### Input
 The script reads apps names from an excel(.xlsx) file with the name "Sourcing Input List.xlsx".</br>
 The file should contain a column with the name "Company name" and any number of rows.</br>
-The file should be in a folder with the named "data" in the same directory as the script.
+The file should be in a folder with the name "data" in the same directory as the script.
 ```
 data = as.data.frame(read_excel("data/Sourcing Input List.xlsx" ) )
 ```
@@ -14,13 +21,6 @@ The script outputs a new excel(.xlsx) file with the name "ans.xlsx" contains 5 c
 ```
 write.xlsx(data , "data/ans.xlsx")
 ```
-
-**Extracted details for each app :**  
- - play store url 
- - reviews score 
- - developer website 
- - number of downloads (installs)
-
 
 
 ## Script Steps
