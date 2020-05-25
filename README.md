@@ -1,5 +1,5 @@
 # Play-Store-Scraper
-This is a R script to scrap details about some apps from the google play store website 
+This is an R script to scrap details about some apps from the google play store website 
 
 
 **Extracted details for each app :**  
